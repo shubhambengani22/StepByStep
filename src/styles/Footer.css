@@ -1,0 +1,22 @@
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #00003f;
+  margin-top: 10vh;
+  color: white;
+}
+
+.footer > p {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .footer > p {
+    font-size: 15px;
+  }
+  .footer {
+    margin-top: 2rem;
+    height: 14vh;
+  }
+}

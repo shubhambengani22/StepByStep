@@ -1,0 +1,92 @@
+.time_elapsed {
+  width: 180px;
+  margin-top: 14%;
+  margin-left: 10%;
+  font-size: 14px;
+  color: white;
+}
+
+.code-editor {
+  border-top: 1px solid black;
+}
+
+.hint > img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.ace_scroller {
+  height: 50vh;
+  border-bottom: 1px solid black;
+}
+
+.ace_gutter {
+  height: 50vh;
+  border-top: none;
+  border-bottom: 1px solid black;
+}
+
+.ace_scrollbar {
+  height: 50vh;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  height: 10vh;
+}
+
+.logo > img {
+  width: 10vw;
+  height: 10vh;
+  padding: 1vh;
+  object-fit: contain;
+}
+
+.options {
+  display: flex;
+  height: 10vh;
+}
+
+.options > .option__buttons,
+.options > .option__buttons > .option,
+.options > .option__buttons > .option > select {
+  height: 5vh;
+  margin: 1vh;
+}
+
+.options > .option__buttons > .option > select#languages {
+  margin-left: 8rem;
+}
+
+.options > .option__buttons > .option > select {
+  margin-left: 2rem;
+  width: 8rem;
+}
+
+.mode {
+  margin-left: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.output__section {
+  height: 35vh;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.output__section > h4 {
+  height: fit-content;
+}
+
+.option {
+  width: 80rem;
+}
+
+.run {
+  margin-left: 31rem;
+  height: fit-content;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
